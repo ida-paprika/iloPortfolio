@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\classe\\": "Classe",
+            "Ctrl\\controller\\": "Controller",
+            "Mdl\\modele\\" : "Modele"
+        },
+        "files":[
+            "utils/functions.php"
+        ]
+
+    }
+}

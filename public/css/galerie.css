@@ -1,0 +1,225 @@
+
+#galerie-head img {
+    width: 10em;
+    height: auto;
+}
+#galerie-head div {
+    background-image:  url("../images/hr.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#div-btn {
+    z-index: 6;
+    margin-top: -13em;
+}
+#btn-ong1, #btn-ong2, #btn-ong3, #btn-ong4 {
+    border: none;
+    background-color: transparent;
+    width: 5em;
+    height: 3.5em;
+    cursor: pointer;
+}
+#onglet1 img, #onglet2 img, #onglet3 img, #onglet4 img, #cadre-galerie img, #div-btn {
+    width: 34em;
+    height: auto;
+}
+#onglet1, #onglet2, #onglet3, #onglet4 {
+    margin-top: -13.2em;
+}
+#cadre-galerie {
+    z-index: 4;
+}
+.zi-1 {
+    z-index: 1;
+}
+.zi-2 {
+    z-index: 2;
+}
+.zi-3 {
+    z-index: 3;
+}
+.zi-5 {
+    z-index: 5;
+}
+
+/* CONTENU */
+#galerie-sections {
+    border: 1px solid blue;
+    margin: 1em 0.5em 0 0.5em;
+    z-index: 7;
+}
+
+/* ARTWORK */
+#block-artwork {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+#block-artwork ul {
+    margin-left: -2.5em;
+}
+#block-artwork ul button {
+    border: none;
+    background-color: transparent;
+    cursor: zoom-in;
+}
+.mini-illu {
+    width: 8em;
+    height: 8em;
+    object-fit: cover;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 6;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+    background-color: transparent;
+    margin: 5% auto;
+    padding: 20px;
+    border: none;
+    width: 100%;
+}
+.modal-content img {
+    width: 100%;
+    height: auto;
+}
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+#prev, #next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -3.5em;
+    margin-right: 1em;
+    padding: 1em;
+    color: rgba(250,250,250,0.5);;
+    font-weight: bold;
+    font-size: 1.3em;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+#next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+#prev:hover, #next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.edit-ctrl {
+    z-index: 7;
+    margin-top: -5em;
+}
+.edit-ctrl button {
+    width: 2.5em;
+    height: 2.5em;
+}
+.close {
+    color: #fff;
+    text-align: right;
+    font-size: 2em;
+    font-weight: bold;
+    margin-right: 0.3em;
+}
+.close:hover, .close:focus {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 576px){
+
+    #div-btn {
+        margin-top: -12.5em;
+    }
+    #btn-ong1, #btn-ong2, #btn-ong3, #btn-ong4 {
+        width: 5.7em;
+        height: 3.8em;
+    }
+    #onglet1 img, #onglet2 img, #onglet3 img, #onglet4 img, #cadre-galerie img, #div-btn {
+        width: 32em;
+    }
+    #onglet1, #onglet2, #onglet3, #onglet4 {
+        margin-top: -12.7em;
+    }
+
+    #block-artwork {
+        max-width: initial;
+    }
+    .mini-illu {
+        width: 10em;
+        height: 10em;
+        object-fit: cover;
+    }
+    .modal-content {
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+
+    #div-btn {
+        margin-top: -13em;
+    }
+    #btn-ong1, #btn-ong2, #btn-ong3, #btn-ong4 {
+        width: 7.9em;
+    }
+    #onglet1 img, #onglet2 img, #onglet3 img, #onglet4 img, #cadre-galerie img, #div-btn {
+        width: 43em;
+    }
+    #onglet1, #onglet2, #onglet3, #onglet4 {
+        margin-top: -13.1em;
+    }
+
+    .modal-content {
+        width: 60%;
+    }
+
+}
+
+
+@media screen and (min-width:992px){
+
+    #btn-ong1, #btn-ong2, #btn-ong3, #btn-ong4 {
+        width: 8.1em;
+    }
+    #onglet1 img, #onglet2 img, #onglet3 img, #onglet4 img, #cadre-galerie img, #div-btn {
+        width: 58em;
+    }
+    #onglet1, #onglet2, #onglet3, #onglet4 {
+        margin-top: -13.3em;
+    }
+
+    .modal-content {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:1200px){
+
+    #btn-ong1, #btn-ong2, #btn-ong3, #btn-ong4 {
+        width: 8.5em;
+    }
+    #onglet1 img, #onglet2 img, #onglet3 img, #onglet4 img, #cadre-galerie img, #div-btn {
+        width: 69em;
+    }
+
+    .modal-content {
+        width: 40%;
+    }
+}

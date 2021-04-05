@@ -1,0 +1,164 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #2C1A30;
+}
+
+header, footer {
+    color: rgb(240, 233, 236);
+}
+
+header{
+    background-image: url("../images/header_footer/bg_header.png");
+    background-size: 110% 80%;
+    background-repeat: no-repeat;
+    padding-bottom: 1em;
+}
+
+.logo img {
+    width: 10em;
+    height: auto;
+    margin-top: 1em;
+}
+
+#block-presentation, #block-galerie, #block-mediatheque {
+    display: flex;
+}
+#block-presentation img, #block-galerie img, #block-mediatheque img {
+    width: auto;
+    max-height: 8em;
+    text-align: right;
+}
+#block-presentation {
+    margin-top: -0.5em;
+    margin-right: -2em;
+}
+#block-galerie {
+    margin-top: -6em;
+    margin-right: -2.5em;
+}
+#block-mediatheque {
+    margin-top: -4.5em;
+}
+.nav-link {
+    position: absolute;
+    z-index: 1;
+}
+
+.nav-link a {
+    background-color: #2C1A30;
+    color: #FFF;
+}
+
+#block-presentation .nav-link {
+    width: 12em;
+    margin-top: 5em;
+    margin-left: 1em;
+}
+#block-presentation .nav-link i {
+    transform: rotate(-25deg);
+    font-size: 1.4em;
+    margin-right: 1em;
+}
+
+#block-galerie .nav-link {
+    margin-top: 5.6em;
+    margin-left: 2em;
+}
+
+#block-mediatheque .nav-link {
+    margin-top: 5.48em;
+    margin-left: 1.3em;
+}
+
+footer {
+    margin-top: auto;
+}
+
+footer img {
+    width: auto;
+    max-height: 10em;
+}
+
+.footer-img {
+    margin: 0 -1em -2.3em -1em;
+}
+
+footer div:last-of-type {
+    background-color: #231C25;
+    padding-top: 1em;
+}
+
+
+@media screen and (min-width: 450px){
+    
+    #block-presentation {
+        margin-right: 2em;
+    }
+    #block-galerie {
+        margin-right: -1.5em;
+    }
+    #block-mediatheque {
+        margin-right: 1em;
+    }
+
+}
+
+@media screen and (min-width: 576px){
+    #block-presentation, #block-galerie, #block-mediatheque {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    
+    #block-presentation {
+        margin-top: 3.5em;
+        margin-left: -2%;
+    }
+
+    #block-galerie {
+        margin-top: -11em;
+        margin-left: 35%;
+    }
+
+    #block-mediatheque {
+        margin-top: -7.5em;
+        margin-left: 65%;
+    }
+
+}
+
+
+@media screen and (min-width:768px){
+    #block-presentation, #block-galerie, #block-mediatheque {
+        margin-left: 0;
+    }
+    
+    #block-presentation {
+        margin-left: 15%;
+    }
+
+    #block-galerie {
+        margin-left: 46%;
+    }
+
+    #block-mediatheque {
+        margin-left: 70%;
+    }
+}
+
+
+@media screen and (min-width:992px){
+
+
+}
+
+@media screen and (min-width:1200px){
+
+
+}
