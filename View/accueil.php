@@ -24,7 +24,7 @@
         </picture> -->
         <div class="text-white overflow-auto">
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Lorem iipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
             <p>
                 Ante in nibh mauris cursus mattis molestie a iaculis at. Interdum consectetur libero id faucibus. Lobortis scelerisque fermentum dui faucibus in ornare quam. Tristique magna sit amet purus.
